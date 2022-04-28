@@ -5,8 +5,6 @@ Call function `setReferrer` with these parameters:
 - your address receiving fees
 - fee on user APR (max 30%, the base is 100%, not APR) 
 
-Contact us if you want to receive some fees also from DAO Maker's fees (~1% APR fee)
-
 ## refer users
 Call function `deposit` with these parameters:
 - amount to deposit
