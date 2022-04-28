@@ -16,7 +16,7 @@ Call function `deposit` with these parameters:
 Users are charged fees when they withdraw (can be also done manually by calling `chargeFees` function). Part of their shares is redistributed to your fee receiving wallet. To withdraw them, simply call `withdraw` function. 
 
 ## get user deposited amounts, TVL
-### endpoint api.daomaker.com/stablecoin-farms
+### endpoint https://api.daomaker.com/stablecoin-farms
 returns this object
 ```
 {
@@ -24,7 +24,6 @@ returns this object
 	farms: [
 		{
 			address: "",
-			apr: "",
 			tvl: "", //in $
 			token: {
 				image: "",
@@ -35,7 +34,7 @@ returns this object
 	]
 }
 ```
-### endpoint api.daomaker.com/stablecoin-farms-user?wallet=<user wallet>
+### endpoint https://api.daomaker.com/stablecoin-farms-user?wallet="user wallet"
 returns this object
 ```
 {
